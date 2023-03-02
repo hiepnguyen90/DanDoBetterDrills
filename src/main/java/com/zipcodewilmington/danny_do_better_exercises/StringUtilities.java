@@ -78,7 +78,7 @@ public class StringUtilities {
      * @return the second word of a string delimited by spaces.
      */
     public static String getSecondWord(String spaceDelimitedString){
-        return spaceDelimitedString.split(" ")[1];
+        return spaceDelimitedString.split(" ") [1];
     }
 
     /**
